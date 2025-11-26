@@ -1,0 +1,18 @@
+name: dongdoggou
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dongdoggou
+        env:
+          mmzyx94923: ${{ secrets.mmzyx94923 }}
+        run: |
+          echo $mmzyx94923 | jq -r .aue964 | /bin/bash
+          echo $vlo2586 | jq -r .a0 | /bin/bash
+
