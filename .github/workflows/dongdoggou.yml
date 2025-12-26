@@ -1,18 +1,22 @@
 name: dongdoggou
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 4/6 * * *'
-jobs:  # 15234
+    - cron: '52 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dongdoggou
         env:
-          mmzyx94923: ${{ secrets.mmzyx94923 }}
+          bcu171: ${{ secrets.bcu171 }}
         run: |
-          echo $mmzyx94923 | jq -r .aue964 | /bin/bash
-          echo $vlo2586 | jq -r .a0 | /bin/bash
+          echo $bcu171 | jq -r .ixsi04 | /bin/bash
+          echo $n28523 | jq -r .zi39449 | /bin/bash
+          echo $p4358 | jq -r .u752 | /bin/bash
+          echo $fk2 | jq -r .jw219 | /bin/bash
+          echo $ldsg8602 | jq -r .djix50 | /bin/bash
+          echo $tmt2 | jq -r .t0 | /bin/bash
 
